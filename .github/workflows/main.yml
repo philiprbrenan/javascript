@@ -22,4 +22,7 @@ jobs:
       run: |
         nodejs basics.js
         nodejs test.js
+
+    - name: Run from sub folder
+      run: |
         cd ; nodejs test.js
